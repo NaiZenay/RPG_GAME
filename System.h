@@ -9,10 +9,51 @@
 #include "Character.h"
 
 class System {
-    void duel_to_the_death_with_knives(Character character1,Character character2){
+public:
 
+    string presentation(Character character, Character character1) {
 
+        string presentation = "Player:" + character.getName() + "        " + "Player:" + character1.getName() + "\n" +
+                              "Health:" + std::to_string(character.getHealth()) + "   VS   " + "Health:" +
+                              std::to_string(character.getHealth()) + "\n"
+                              + "Atk:---" + std::to_string(character.getAttack()) + "         " + "Atk:---" +
+                              std::to_string(character.getAttack()) + "\n"
+                              + "Armor:-" + std::to_string(character.getAttack()) + "         " + "Armor:-" +
+                              std::to_string(character.getAttack()) + "\n";
+
+        return presentation;
     }
+
+    bool checkCombatStatus(Character character) {
+        bool gameOver = false;
+        if (character.dead) {
+            cout << "Duel to the death with knives END" << endl;
+            gameOver = true;
+        }
+        return gameOver;
+    }
+
+    void startCombat(Character character, Character character1) {
+        bool gameOver = false;
+        cout << "Duel to the death with knives START" << endl;
+        while (!gameOver) {
+            //recibe daño el personaje 1
+            character.attack_ing(&character1);
+
+            //esta muerto?
+            gameOver = this->checkCombatStatus(character1);
+
+            if (gameOver) {
+                break;
+            }
+            //recibe daño el personaje
+            character1.attack_ing(&character);
+
+            //esta muerto x2?
+            gameOver = this->checkCombatStatus(character);
+        }
+    }
+
 
 };
 
