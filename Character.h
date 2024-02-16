@@ -16,17 +16,16 @@ private:
     int health;
     int attack;
     int defense;
-    int damage;
+    int damage=0;
 public:
     bool dead=false;
 
 public:
-    Character(string _name, int _health, int _attack, int _defense,int _damage) {
+    Character(string _name, int _health, int _attack, int _defense) {
         name = _name;
         health = _health;
         attack = _attack;
         defense = _defense;
-        damage = _damage;
     }
 
     string getName() {
@@ -46,11 +45,11 @@ public:
     }
 
     void setDamage(int _damage){
-        this->damage=_damage;
+        this->damage+=_damage;
         if (damage >= health){
             this->die();
         } else{
-            cout<< this->getName()<< " take "<< this->damage<<" points of damage "<< this->getHealth() - this->getDamage()<<" health points left" <<endl;
+            cout<< this->getName()<< " take "<< _damage<<" points of damage "<< this->getHealth() - this->getDamage()<<" health points left" <<endl;
         }
     }
 
@@ -63,14 +62,14 @@ public:
                to_string(defense);
     }
 
-    int attack_ing(Character *target) {
+    void attack_ing(Character *target) {
         cout << this->getName() <<" stabs "<<target->getName() <<endl;
-       return this->getAttack() - target->getDefense();
+        target->setDamage(getAttack() - target->getDefense());
     }
 
     void die(){
         cout << "GG "<< this->getName()<< " ez tutorial" <<endl;
-        dead= true;
+        this->dead= true;
     }
 };
 

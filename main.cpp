@@ -1,20 +1,14 @@
 #include <iostream>
 #include "Character.h"
+#include "System.h"
 
 int main() {
-    Character *character = new Character("Ian", 100, 20, 10, 0);
-    Character *character1 = new Character("Nai", 90, 30, 5, 0);
+    System *combat = new System();
+    Character *character = new Character("Ian", 100, 20, 10);
+    Character *character1 = new Character("Angel", 90, 30, 5);
 
-
-    cout << "Duel to the death with knives START" << endl;
-
-    do {
-
-        character1->setDamage(character->attack_ing(character1));
-        character->setDamage(character1->attack_ing(character));
-
-    } while ();
-
+    cout<<combat->presentation(*character,*character1)<<endl;
+    combat->startCombat(*character,*character1);
 
     return 0;
 }
