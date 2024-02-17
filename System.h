@@ -34,11 +34,13 @@ public:
     }
 
     void startCombat(Character character, Character character1) {
+        int roundCount = 0;
         bool gameOver = false;
         cout << "Duel to the death with knives START" << endl;
+
         while (!gameOver) {
             //recibe daño el personaje 1
-            character.attack_ing(&character1);
+            character.takeTurn(&character1);
 
             //esta muerto?
             gameOver = this->checkCombatStatus(character1);
@@ -47,11 +49,13 @@ public:
                 break;
             }
             //recibe daño el personaje
-            character1.attack_ing(&character);
+            character1.takeTurn(&character);
 
             //esta muerto x2?
             gameOver = this->checkCombatStatus(character);
+            roundCount++;
         }
+        cout << "Duel to the dead with knives ended in " << std::to_string(roundCount) << " rounds" << endl;
     }
 
 

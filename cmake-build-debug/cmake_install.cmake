@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Ian/Documents/Uni/RPG_Game
+# Install script for directory: C:/Users/Ian/Documents/Dev/Projects/RPG_GAME
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Ian/Documents/Uni/RPG_Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

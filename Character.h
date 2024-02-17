@@ -67,6 +67,19 @@ public:
         target->setDamage(getAttack() - target->getDefense());
     }
 
+    void takeTurn(Character *target){
+        int action;
+        cout<< "Chose your action "<< this->getName()<<" \n 1)Attack"<<endl;
+        cin>>action;
+        switch (action) {
+            case 1:
+                this->attack_ing(target);
+                break;
+            default:
+                break;
+        }
+    }
+
     void die(){
         cout << "GG "<< this->getName()<< " ez tutorial" <<endl;
         this->dead= true;
