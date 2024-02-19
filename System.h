@@ -7,19 +7,19 @@
 #define RPG_GAME_SYSTEM_H
 
 #include "Character.h"
+#include <vector>
 
 class System {
 public:
-
     string presentation(Character character, Character character1) {
 
         string presentation = "Player:" + character.getName() + "        " + "Player:" + character1.getName() + "\n" +
                               "Health:" + std::to_string(character.getHealth()) + "   VS   " + "Health:" +
-                              std::to_string(character.getHealth()) + "\n"
+                              std::to_string(character1.getHealth()) + "\n"
                               + "Atk:---" + std::to_string(character.getAttack()) + "         " + "Atk:---" +
-                              std::to_string(character.getAttack()) + "\n"
+                              std::to_string(character1.getAttack()) + "\n"
                               + "Armor:-" + std::to_string(character.getAttack()) + "         " + "Armor:-" +
-                              std::to_string(character.getAttack()) + "\n";
+                              std::to_string(character1.getDefense()) + "\n";
 
         return presentation;
     }

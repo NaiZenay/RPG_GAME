@@ -28,6 +28,8 @@ public:
         defense = _defense;
     }
 
+    ~Character(){}
+
     string getName() {
         return name;
     }
@@ -64,7 +66,8 @@ public:
 
     void attack_ing(Character *target) {
         cout << this->getName() <<" stabs "<<target->getName() <<endl;
-        target->setDamage(getAttack() - target->getDefense());
+        (this->getAttack() ) < (target->getDefense() )? target->setDamage(0):target->setDamage(getAttack() - target->getDefense());
+
     }
 
     void takeTurn(Character *target){
