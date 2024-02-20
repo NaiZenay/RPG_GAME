@@ -3,14 +3,48 @@
 // Created by Ian on 2/15/2024.
 //
 
-#ifndef RPG_GAME_SYSTEM_H
-#define RPG_GAME_SYSTEM_H
+#ifndef RPG_GAME_COMBATSYSTEM_H
+#define RPG_GAME_COMBATSYSTEM_H
 
 #include "Character.h"
 #include <vector>
 
-class System {
+class CombatSystem {
 public:
+    ~CombatSystem()= default;
+
+    vector<Character> characters;
+    void addCharacter (Character character){
+        cout <<"Write the name of your character"<<endl;
+        string name;
+        cin>>name;
+        character.setName(name);
+
+        cout <<"Write the Health of your character"<<endl;
+        int health;
+        cin>>health;
+        character.setHealth(health);
+
+        cout <<"Write the Attack of your character"<<endl;
+        int attack;
+        cin>>attack;
+        character.setAttack(attack);
+
+        cout <<"Write the Defense of your character"<<endl;
+        int defense;
+        cin>>defense;
+        character.setDefense(defense);
+
+
+        characters.push_back(character);
+    }
+
+    void getCharacters(){
+        for (auto Character : characters) {
+            cout<<Character.toString()<<endl;
+        }
+    }
+
     string presentation(Character character, Character character1) {
 
         string presentation = "Player:" + character.getName() + "        " + "Player:" + character1.getName() + "\n" +
@@ -62,4 +96,4 @@ public:
 };
 
 
-#endif //RPG_GAME_SYSTEM_H
+#endif //RPG_GAME_COMBATSYSTEM_H

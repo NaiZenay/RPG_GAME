@@ -28,18 +28,28 @@ public:
         defense = _defense;
     }
 
+    Character(){}
     ~Character(){}
 
     string getName() {
         return name;
     }
+    void setName(string _name){
+        this->name=_name;
+    }
 
     int getAttack() {
         return attack;
     }
+    void setAttack(int _attack){
+        this->attack=_attack;
+    }
 
     int getHealth() {
         return health;
+    }
+    void setHealth(int _health){
+        this->health=_health;
     }
 
     int getDamage(){
@@ -57,6 +67,9 @@ public:
 
     int getDefense() {
         return defense;
+    }
+    void setDefense(int _defense){
+        this->defense=_defense;
     }
 
     string toString() {
