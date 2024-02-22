@@ -11,51 +11,40 @@
 
 class CombatSystem {
 public:
-    ~CombatSystem()= default;
+    ~CombatSystem() = default;
 
-    vector<Character> characters;
-    void addCharacter (Character character){
-        cout <<"Write the name of your character"<<endl;
+    vector <Character> characters;
+
+    void addCharacter() {
+        Character *character = new Character();
+        cout << "Write the name of your character" << endl;
         string name;
-        cin>>name;
-        character.setName(name);
+        cin >> name;
+        character->setName(name);
 
-        cout <<"Write the Health of your character"<<endl;
+        cout << "Write the Health of your character" << endl;
         int health;
-        cin>>health;
-        character.setHealth(health);
+        cin >> health;
+        character->setHealth(health);
 
-        cout <<"Write the Attack of your character"<<endl;
+        cout << "Write the Attack of your character" << endl;
         int attack;
-        cin>>attack;
-        character.setAttack(attack);
+        cin >> attack;
+        character->setAttack(attack);
 
-        cout <<"Write the Defense of your character"<<endl;
+        cout << "Write the Defense of your character" << endl;
         int defense;
-        cin>>defense;
-        character.setDefense(defense);
+        cin >> defense;
+        character->setDefense(defense);
 
-
-        characters.push_back(character);
+        characters.push_back(*character);
     }
 
-    void getCharacters(){
-        for (auto Character : characters) {
-            cout<<Character.toString()<<endl;
+    void getCharacters() {
+        for (auto Character: characters) {
+            cout << Character.toString() << endl;
+            cout << "===============" << endl;
         }
-    }
-
-    string presentation(Character character, Character character1) {
-
-        string presentation = "Player:" + character.getName() + "        " + "Player:" + character1.getName() + "\n" +
-                              "Health:" + std::to_string(character.getHealth()) + "   VS   " + "Health:" +
-                              std::to_string(character1.getHealth()) + "\n"
-                              + "Atk:---" + std::to_string(character.getAttack()) + "         " + "Atk:---" +
-                              std::to_string(character1.getAttack()) + "\n"
-                              + "Armor:-" + std::to_string(character.getAttack()) + "         " + "Armor:-" +
-                              std::to_string(character1.getDefense()) + "\n";
-
-        return presentation;
     }
 
     bool checkCombatStatus(Character character) {
@@ -67,29 +56,33 @@ public:
         return gameOver;
     }
 
-    void startCombat(Character character, Character character1) {
-        int roundCount = 0;
-        bool gameOver = false;
-        cout << "Duel to the death with knives START" << endl;
+    void startCombat(vector <Character>) {
+    //TODO
+    }
 
-        while (!gameOver) {
-            //recibe daño el personaje 1
-            character.takeTurn(&character1);
-
-            //esta muerto?
-            gameOver = this->checkCombatStatus(character1);
-
-            if (gameOver) {
+    void menu() {
+        int opcion = 0;
+        cout << "Welcome, please chose an action\n"
+                "1)Add Caracter\n"
+                "2)Show Characters\n"
+                "3)Start Combat\n" << endl;
+        cin >> opcion;
+        switch (opcion) {
+            case 1:
+                this->addCharacter();
+                this->menu();
                 break;
-            }
-            //recibe daño el personaje
-            character1.takeTurn(&character);
-
-            //esta muerto x2?
-            gameOver = this->checkCombatStatus(character);
-            roundCount++;
+            case 2:
+                this->getCharacters();
+                this->menu();
+                break;
+            case 3:
+//                this->startCombat();
+                break;
+            default:
+                break;
         }
-        cout << "Duel to the dead with knives ended in " << std::to_string(roundCount) << " rounds" << endl;
+
     }
 
 
