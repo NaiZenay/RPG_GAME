@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RPG_Game.dir/main.cpp.obj"
-  "CMakeFiles/RPG_Game.dir/main.cpp.obj.d"
-  "RPG_Game.exe"
-  "RPG_Game.exe.manifest"
+  "CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o"
+  "CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o.d"
+  "CMakeFiles/RPG_Game.dir/main.cpp.o"
+  "CMakeFiles/RPG_Game.dir/main.cpp.o.d"
+  "RPG_Game"
   "RPG_Game.pdb"
-  "libRPG_Game.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

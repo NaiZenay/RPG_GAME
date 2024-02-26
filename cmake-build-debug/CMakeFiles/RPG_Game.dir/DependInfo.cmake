@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/main.cpp" "CMakeFiles/RPG_Game.dir/main.cpp.obj" "gcc" "CMakeFiles/RPG_Game.dir/main.cpp.obj.d"
+  "/home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem.cpp" "CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o" "gcc" "CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o.d"
+  "/home/ian/Documents/Uni/POO/RPG_GAME/main.cpp" "CMakeFiles/RPG_Game.dir/main.cpp.o" "gcc" "CMakeFiles/RPG_Game.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

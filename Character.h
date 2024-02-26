@@ -17,6 +17,8 @@ private:
     int attack;
     int defense;
     int damage=0;
+    int initiative;
+
 public:
     bool dead=false;
 
@@ -72,9 +74,16 @@ public:
         this->defense=_defense;
     }
 
+    int getInitiative(){
+        return initiative;
+    }
+
+    void setInitiative() {
+        this->initiative =1+rand()%(21-1);
+    }
     string toString() {
         return "Name: " + name + "\nHealth: " + to_string(health) + "\nAttack: " + to_string(attack) + "\nDefense: " +
-               to_string(defense);
+               to_string(defense)+"\nInitiative: "+ to_string(initiative);
     }
 
     void attack_ing(Character *target) {

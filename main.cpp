@@ -3,7 +3,7 @@
 #include "CombatSystem.h"
 
 int main() {
-    CombatSystem *combat = new CombatSystem();
+    auto *combat = new CombatSystem();
     combat->menu();
     delete combat;
     return 0;
