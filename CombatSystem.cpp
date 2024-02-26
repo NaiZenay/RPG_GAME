@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+
 bool compareInitiatives(Character &a, Character &b) {
     return a.getInitiative() > b.getInitiative();
 }
@@ -38,10 +40,10 @@ void CombatSystem::addCharacter() {
 
 void CombatSystem::setTurns() {
     sort(characters.begin(), characters.end(), compareInitiatives);
-    this->getCharacters();
+    this->printCharacters();
 }
 
-void CombatSystem::getCharacters() {
+void CombatSystem::printCharacters() {
     for (auto Character: characters) {
         cout << Character.toString() << endl;
         cout << "===============" << endl;
@@ -50,6 +52,16 @@ void CombatSystem::getCharacters() {
 
 void CombatSystem::startCombat(vector<Character>) {
     setTurns();
+}
+
+Character CombatSystem::choseTarget(){
+    cout<< "Chose your target :"<<endl;
+    for (int i = 0; i < characters.size(); ++i) {
+        cout<<i<<") "<<characters[i].getName();
+    }
+    int characterIndex=0;
+    cin>>characterIndex;
+    return characters[characterIndex];
 }
 
 void CombatSystem::menu() {
@@ -65,7 +77,7 @@ void CombatSystem::menu() {
             this->menu();
             break;
         case 2:
-            this->getCharacters();
+            this->printCharacters();
             this->menu();
             break;
         case 3:

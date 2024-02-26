@@ -7,6 +7,8 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+#include "CombatSystem.h"
 
 using namespace std;
 
@@ -91,6 +93,7 @@ public:
         (this->getAttack() ) < (target->getDefense() )? target->setDamage(0):target->setDamage(getAttack() - target->getDefense());
 
     }
+
 
     void takeTurn(Character *target){
         int action;

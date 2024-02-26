@@ -11,18 +11,23 @@
 
 class CombatSystem {
 public:
-    vector <Character> characters;
+    static vector <Character> characters;
     ~CombatSystem() = default;
 
+    static vector<Character>getCharacters(){
+        return characters;
+    }
     void addCharacter() ;
     void setTurns();
-    void getCharacters();
+    void printCharacters();
     bool checkCombatStatus() {
         //TODO
         return false;
     }
     void menu();
     void startCombat(vector<Character>);
+
+    Character choseTarget();
 };
 
 
