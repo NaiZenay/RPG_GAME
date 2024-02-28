@@ -81,12 +81,12 @@ clean: CMakeFiles/RPG_Game.dir/clean
 CMakeFiles/RPG_Game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target RPG_Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target RPG_Game"
 .PHONY : CMakeFiles/RPG_Game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RPG_Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RPG_Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/RPG_Game.dir/rule

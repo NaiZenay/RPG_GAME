@@ -6,17 +6,16 @@
 #ifndef RPG_GAME_COMBATSYSTEM_H
 #define RPG_GAME_COMBATSYSTEM_H
 
-#include "Character.h"
+#include "../Character/Character.h"
 #include <vector>
 
-class CombatSystem {
-public:
-    static vector <Character> characters;
-    ~CombatSystem() = default;
+class Character;
 
-    static vector<Character>getCharacters(){
-        return characters;
-    }
+class CombatSystem {
+
+public:
+    std::vector<Character> characters;
+    ~CombatSystem() = default;
     void addCharacter() ;
     void setTurns();
     void printCharacters();
@@ -25,9 +24,8 @@ public:
         return false;
     }
     void menu();
-    void startCombat(vector<Character>);
+    void startCombat(std::vector<Character>);
 
-    Character choseTarget();
 };
 
 

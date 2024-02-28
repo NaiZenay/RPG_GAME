@@ -2,9 +2,6 @@
 #include "algorithm"
 
 using namespace std;
-
-
-
 bool compareInitiatives(Character &a, Character &b) {
     return a.getInitiative() > b.getInitiative();
 }
@@ -52,16 +49,9 @@ void CombatSystem::printCharacters() {
 
 void CombatSystem::startCombat(vector<Character>) {
     setTurns();
-}
-
-Character CombatSystem::choseTarget(){
-    cout<< "Chose your target :"<<endl;
-    for (int i = 0; i < characters.size(); ++i) {
-        cout<<i<<") "<<characters[i].getName();
+    for (auto Character: characters) {
+        Character.takeTurn();
     }
-    int characterIndex=0;
-    cin>>characterIndex;
-    return characters[characterIndex];
 }
 
 void CombatSystem::menu() {

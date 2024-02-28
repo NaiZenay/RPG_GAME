@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Character.h"
-#include "CombatSystem.h"
+#include "Character/Character.h"
+#include "CombatSystem/CombatSystem.h"
 
 int main() {
     auto *combat = new CombatSystem();

@@ -129,29 +129,53 @@ RPG_Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/build
 .PHONY : RPG_Game/fast
 
-CombatSystem.o: CombatSystem.cpp.o
-.PHONY : CombatSystem.o
+Character/Character.o: Character/Character.cpp.o
+.PHONY : Character/Character.o
 
 # target to build an object file
-CombatSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o
-.PHONY : CombatSystem.cpp.o
+Character/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/Character/Character.cpp.o
+.PHONY : Character/Character.cpp.o
 
-CombatSystem.i: CombatSystem.cpp.i
-.PHONY : CombatSystem.i
+Character/Character.i: Character/Character.cpp.i
+.PHONY : Character/Character.i
 
 # target to preprocess a source file
-CombatSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/CombatSystem.cpp.i
-.PHONY : CombatSystem.cpp.i
+Character/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/Character/Character.cpp.i
+.PHONY : Character/Character.cpp.i
 
-CombatSystem.s: CombatSystem.cpp.s
-.PHONY : CombatSystem.s
+Character/Character.s: Character/Character.cpp.s
+.PHONY : Character/Character.s
 
 # target to generate assembly for a file
-CombatSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/CombatSystem.cpp.s
-.PHONY : CombatSystem.cpp.s
+Character/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/Character/Character.cpp.s
+.PHONY : Character/Character.cpp.s
+
+CombatSystem/CombatSystem.o: CombatSystem/CombatSystem.cpp.o
+.PHONY : CombatSystem/CombatSystem.o
+
+# target to build an object file
+CombatSystem/CombatSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o
+.PHONY : CombatSystem/CombatSystem.cpp.o
+
+CombatSystem/CombatSystem.i: CombatSystem/CombatSystem.cpp.i
+.PHONY : CombatSystem/CombatSystem.i
+
+# target to preprocess a source file
+CombatSystem/CombatSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.i
+.PHONY : CombatSystem/CombatSystem.cpp.i
+
+CombatSystem/CombatSystem.s: CombatSystem/CombatSystem.cpp.s
+.PHONY : CombatSystem/CombatSystem.s
+
+# target to generate assembly for a file
+CombatSystem/CombatSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPG_Game.dir/build.make CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.s
+.PHONY : CombatSystem/CombatSystem.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RPG_Game"
-	@echo "... CombatSystem.o"
-	@echo "... CombatSystem.i"
-	@echo "... CombatSystem.s"
+	@echo "... Character/Character.o"
+	@echo "... Character/Character.i"
+	@echo "... Character/Character.s"
+	@echo "... CombatSystem/CombatSystem.o"
+	@echo "... CombatSystem/CombatSystem.i"
+	@echo "... CombatSystem/CombatSystem.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

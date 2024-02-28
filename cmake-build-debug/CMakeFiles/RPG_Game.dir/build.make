@@ -83,33 +83,49 @@ CMakeFiles/RPG_Game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/Documents/Uni/POO/RPG_GAME/main.cpp -o CMakeFiles/RPG_Game.dir/main.cpp.s
 
-CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o: CMakeFiles/RPG_Game.dir/flags.make
-CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o: /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem.cpp
-CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o: CMakeFiles/RPG_Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o -MF CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o.d -o CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o -c /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem.cpp
+CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o: CMakeFiles/RPG_Game.dir/flags.make
+CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o: /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem/CombatSystem.cpp
+CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o: CMakeFiles/RPG_Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o -MF CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o.d -o CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o -c /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem/CombatSystem.cpp
 
-CMakeFiles/RPG_Game.dir/CombatSystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPG_Game.dir/CombatSystem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem.cpp > CMakeFiles/RPG_Game.dir/CombatSystem.cpp.i
+CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem/CombatSystem.cpp > CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.i
 
-CMakeFiles/RPG_Game.dir/CombatSystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/CombatSystem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem.cpp -o CMakeFiles/RPG_Game.dir/CombatSystem.cpp.s
+CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/Documents/Uni/POO/RPG_GAME/CombatSystem/CombatSystem.cpp -o CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.s
+
+CMakeFiles/RPG_Game.dir/Character/Character.cpp.o: CMakeFiles/RPG_Game.dir/flags.make
+CMakeFiles/RPG_Game.dir/Character/Character.cpp.o: /home/ian/Documents/Uni/POO/RPG_GAME/Character/Character.cpp
+CMakeFiles/RPG_Game.dir/Character/Character.cpp.o: CMakeFiles/RPG_Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RPG_Game.dir/Character/Character.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPG_Game.dir/Character/Character.cpp.o -MF CMakeFiles/RPG_Game.dir/Character/Character.cpp.o.d -o CMakeFiles/RPG_Game.dir/Character/Character.cpp.o -c /home/ian/Documents/Uni/POO/RPG_GAME/Character/Character.cpp
+
+CMakeFiles/RPG_Game.dir/Character/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPG_Game.dir/Character/Character.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/Documents/Uni/POO/RPG_GAME/Character/Character.cpp > CMakeFiles/RPG_Game.dir/Character/Character.cpp.i
+
+CMakeFiles/RPG_Game.dir/Character/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/Character/Character.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/Documents/Uni/POO/RPG_GAME/Character/Character.cpp -o CMakeFiles/RPG_Game.dir/Character/Character.cpp.s
 
 # Object files for target RPG_Game
 RPG_Game_OBJECTS = \
 "CMakeFiles/RPG_Game.dir/main.cpp.o" \
-"CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o"
+"CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o" \
+"CMakeFiles/RPG_Game.dir/Character/Character.cpp.o"
 
 # External object files for target RPG_Game
 RPG_Game_EXTERNAL_OBJECTS =
 
 RPG_Game: CMakeFiles/RPG_Game.dir/main.cpp.o
-RPG_Game: CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o
+RPG_Game: CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o
+RPG_Game: CMakeFiles/RPG_Game.dir/Character/Character.cpp.o
 RPG_Game: CMakeFiles/RPG_Game.dir/build.make
 RPG_Game: CMakeFiles/RPG_Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable RPG_Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RPG_Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RPG_Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

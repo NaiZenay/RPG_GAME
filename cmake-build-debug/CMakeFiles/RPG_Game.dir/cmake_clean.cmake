@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o"
-  "CMakeFiles/RPG_Game.dir/CombatSystem.cpp.o.d"
+  "CMakeFiles/RPG_Game.dir/Character/Character.cpp.o"
+  "CMakeFiles/RPG_Game.dir/Character/Character.cpp.o.d"
+  "CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o"
+  "CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o.d"
   "CMakeFiles/RPG_Game.dir/main.cpp.o"
   "CMakeFiles/RPG_Game.dir/main.cpp.o.d"
   "RPG_Game"
