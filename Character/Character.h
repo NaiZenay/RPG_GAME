@@ -38,66 +38,34 @@ public:
 
     ~Character() {}
 
-    string getName() {
-        return name;
-    }
+    string getName();
 
-    void setName(string _name) {
-        this->name = _name;
-    }
+    void setName(string _name);
 
-    int getAttack() {
-        return attack;
-    }
+    int getAttack();
 
-    void setAttack(int _attack) {
-        this->attack = _attack;
-    }
+    void setAttack(int _attack);
 
-    int getHealth() {
-        return health;
-    }
+    int getHealth();
 
-    void setHealth(int _health) {
-        this->health = _health;
-    }
+    void setHealth(int _health);
 
-    int getDamage() {
-        return damage;
-    }
+    int getDamage();
 
-    void setDamage(int _damage) {
-        this->damage += _damage;
-        if (damage >= health) {
-            this->die();
-        } else {
-            cout << this->getName() << " take " << _damage << " points of damage, "
-                 << this->getHealth() - this->getDamage() << " health points left" << endl;
-        }
-    }
+    void setDamage(int _damage);
 
-    int getDefense() {
-        return defense;
-    }
+    int getDefense();
 
-    void setDefense(int _defense) {
-        this->defense = _defense;
-    }
+    void setDefense(int _defense);
 
-    int getInitiative() {
-        return initiative;
-    }
+    int getInitiative();
 
-    void setInitiative() {
-        this->initiative = 1 + rand() % (21 - 1);
-    }
+    void setInitiative();
 
-    string toString() {
-        return "Name: " + name + "\nHealth: " + to_string(health) + "\nAttack: " + to_string(attack) + "\nDefense: " +
-               to_string(defense) + "\nInitiative: " + to_string(initiative);
-    }
+    string toString();
 
     void attack_ing(Character target);
+
     void die();
 };
 
