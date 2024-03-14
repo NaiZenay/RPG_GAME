@@ -25,6 +25,8 @@ public:
     }
     void menu();
     void startCombat(std::vector<Character>);
+    Character choseTarget(std::vector<Character> targets);
+    void takeTurn(Character character);
 
 };
 

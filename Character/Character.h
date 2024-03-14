@@ -71,7 +71,7 @@ public:
         if (damage >= health) {
             this->die();
         } else {
-            cout << this->getName() << " take " << _damage << " points of damage "
+            cout << this->getName() << " take " << _damage << " points of damage, "
                  << this->getHealth() - this->getDamage() << " health points left" << endl;
         }
     }
@@ -97,9 +97,7 @@ public:
                to_string(defense) + "\nInitiative: " + to_string(initiative);
     }
 
-    Character choseTarget(std::vector<Character> targets);
     void attack_ing(Character target);
-    void takeTurn();
     void die();
 };
 

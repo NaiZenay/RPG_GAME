@@ -5,7 +5,16 @@ using namespace std;
 bool compareInitiatives(Character &a, Character &b) {
     return a.getInitiative() > b.getInitiative();
 }
-
+Character CombatSystem::choseTarget(std::vector<Character> targets) {
+    cout << "Chose your target :\n" << endl;
+    for (int i = 0; i < targets.size(); ++i) {
+        cout << i << ") " << targets[i].getName()<<endl;
+        cout<<"========================"<<endl;
+    }
+    int characterIndex = 0;
+    cin >> characterIndex;
+    return targets[characterIndex];
+}
 void CombatSystem::addCharacter() {
     Character *character = new Character();
     cout << "Write the name of your character" << endl;
@@ -50,7 +59,7 @@ void CombatSystem::printCharacters() {
 void CombatSystem::startCombat(vector<Character>) {
     setTurns();
     for (auto Character: characters) {
-        Character.takeTurn();
+        this->takeTurn(Character);
     }
 }
 
@@ -77,5 +86,23 @@ void CombatSystem::menu() {
         default:
             break;
     }
+}
 
+void CombatSystem::takeTurn(Character character) {
+    int action;
+    cout << "Chose your action " << character.getName() << " \n 1)Attack\n2)Flee" << endl;
+    cin >> action;
+    switch (action) {
+        case 1: {
+            Character target = this->choseTarget(characters);
+            character.attack_ing(target);
+            break;
+        }
+        case 2:
+            cout << "Huiste :)" << endl;
+            break;
+        default:
+            cout << "Huiste :)" << endl;
+            break;
+    }
 }
