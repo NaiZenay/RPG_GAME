@@ -42,13 +42,14 @@ public:
 
     void setName(string _name);
 
+
     int getAttack();
 
-    void setAttack(int _attack);
+    virtual void setAttack(int _attack)=0;
 
     int getHealth();
 
-    void setHealth(int _health);
+    virtual void setHealth(int _health)=0;
 
     int getDamage();
 
@@ -56,7 +57,8 @@ public:
 
     int getDefense();
 
-    void setDefense(int _defense);
+    virtual void setDefense(int _defense)=0;
+
 
     int getInitiative();
 
