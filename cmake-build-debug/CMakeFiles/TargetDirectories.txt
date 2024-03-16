@@ -1,3 +1,0 @@
-/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles/RPG_Game.dir
-/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ian/Documents/Uni/POO/RPG_GAME/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -19,10 +19,7 @@ public:
     void addCharacter() ;
     void setTurns();
     void printCharacters();
-    bool checkCombatStatus() {
-        //TODO
-        return false;
-    }
+    bool checkCombatStatus(vector<Character> participants);
     void menu();
     void startCombat(std::vector<Character>);
     Character choseTarget(std::vector<Character> targets);

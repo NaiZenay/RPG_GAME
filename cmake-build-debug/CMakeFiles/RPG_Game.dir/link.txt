@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/RPG_Game.dir/main.cpp.o CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.o CMakeFiles/RPG_Game.dir/Character/Character.cpp.o -o RPG_Game 

@@ -63,6 +63,10 @@ void CombatSystem::startCombat(vector<Character>) {
     }
 }
 
+bool CombatSystem::checkCombatStatus(vector<Character> participants) {
+    //to do
+}
+
 void CombatSystem::menu() {
     int opcion = 0;
     cout << "Welcome, please chose an action\n"
