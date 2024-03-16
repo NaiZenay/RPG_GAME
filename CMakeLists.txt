@@ -5,4 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(RPG_Game main.cpp
         CombatSystem/CombatSystem.cpp
-        Character/Character.cpp)
+        Character/Character.cpp
+        Player/Player.h
+        Class/Class.h
+        Player/Player.cpp
+        Artefacts/Artefacts.h
+        Artefacts/Artefacts.cpp)

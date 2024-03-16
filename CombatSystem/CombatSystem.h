@@ -11,6 +11,7 @@
 
 class Character;
 
+using namespace std;
 class CombatSystem {
 
 public:

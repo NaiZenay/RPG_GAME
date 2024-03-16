@@ -64,6 +64,7 @@ public:
 
     string toString();
 
+    //Hacer virtual
     void attack_ing(Character target);
 
     void die();

@@ -1,5 +1,6 @@
 #include "CombatSystem.h"
 #include "algorithm"
+#include "vector"
 
 using namespace std;
 bool compareInitiatives(Character &a, Character &b) {
