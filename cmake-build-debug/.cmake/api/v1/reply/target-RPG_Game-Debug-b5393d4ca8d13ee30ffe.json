@@ -56,7 +56,10 @@
 				1,
 				2,
 				5,
-				7
+				7,
+				9,
+				11,
+				12
 			]
 		}
 	],
@@ -97,7 +100,10 @@
 				1,
 				2,
 				5,
-				7
+				7,
+				9,
+				11,
+				12
 			]
 		},
 		{
@@ -106,7 +112,9 @@
 			[
 				3,
 				4,
-				6
+				6,
+				8,
+				10
 			]
 		}
 	],
@@ -155,6 +163,34 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Artefacts/Artefacts.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Artefacts/Wepons/Wepons.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Artefacts/Wepons/Wepons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Class/Knight/Knight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Class/Knight/Knight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Class/Class.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

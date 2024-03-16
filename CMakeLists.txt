@@ -10,4 +10,9 @@ add_executable(RPG_Game main.cpp
         Class/Class.h
         Player/Player.cpp
         Artefacts/Artefacts.h
-        Artefacts/Artefacts.cpp)
+        Artefacts/Artefacts.cpp
+        Artefacts/Wepons/Wepons.h
+        Artefacts/Wepons/Wepons.cpp
+        Class/Knight/Knight.h
+        Class/Knight/Knight.cpp
+        Class/Class.cpp)

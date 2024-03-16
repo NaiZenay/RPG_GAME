@@ -138,13 +138,58 @@ CMakeFiles/RPG_Game.dir/Artefacts/Artefacts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/Artefacts/Artefacts.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Artefacts\Artefacts.cpp -o CMakeFiles\RPG_Game.dir\Artefacts\Artefacts.cpp.s
 
+CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj: CMakeFiles/RPG_Game.dir/flags.make
+CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj: C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Artefacts/Wepons/Wepons.cpp
+CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj: CMakeFiles/RPG_Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj -MF CMakeFiles\RPG_Game.dir\Artefacts\Wepons\Wepons.cpp.obj.d -o CMakeFiles\RPG_Game.dir\Artefacts\Wepons\Wepons.cpp.obj -c C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Artefacts\Wepons\Wepons.cpp
+
+CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Artefacts\Wepons\Wepons.cpp > CMakeFiles\RPG_Game.dir\Artefacts\Wepons\Wepons.cpp.i
+
+CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Artefacts\Wepons\Wepons.cpp -o CMakeFiles\RPG_Game.dir\Artefacts\Wepons\Wepons.cpp.s
+
+CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj: CMakeFiles/RPG_Game.dir/flags.make
+CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj: C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Class/Knight/Knight.cpp
+CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj: CMakeFiles/RPG_Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj -MF CMakeFiles\RPG_Game.dir\Class\Knight\Knight.cpp.obj.d -o CMakeFiles\RPG_Game.dir\Class\Knight\Knight.cpp.obj -c C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Class\Knight\Knight.cpp
+
+CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Class\Knight\Knight.cpp > CMakeFiles\RPG_Game.dir\Class\Knight\Knight.cpp.i
+
+CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Class\Knight\Knight.cpp -o CMakeFiles\RPG_Game.dir\Class\Knight\Knight.cpp.s
+
+CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj: CMakeFiles/RPG_Game.dir/flags.make
+CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj: C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Class/Class.cpp
+CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj: CMakeFiles/RPG_Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj -MF CMakeFiles\RPG_Game.dir\Class\Class.cpp.obj.d -o CMakeFiles\RPG_Game.dir\Class\Class.cpp.obj -c C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Class\Class.cpp
+
+CMakeFiles/RPG_Game.dir/Class/Class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPG_Game.dir/Class/Class.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Class\Class.cpp > CMakeFiles\RPG_Game.dir\Class\Class.cpp.i
+
+CMakeFiles/RPG_Game.dir/Class/Class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPG_Game.dir/Class/Class.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\Class\Class.cpp -o CMakeFiles\RPG_Game.dir\Class\Class.cpp.s
+
 # Object files for target RPG_Game
 RPG_Game_OBJECTS = \
 "CMakeFiles/RPG_Game.dir/main.cpp.obj" \
 "CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.obj" \
 "CMakeFiles/RPG_Game.dir/Character/Character.cpp.obj" \
 "CMakeFiles/RPG_Game.dir/Player/Player.cpp.obj" \
-"CMakeFiles/RPG_Game.dir/Artefacts/Artefacts.cpp.obj"
+"CMakeFiles/RPG_Game.dir/Artefacts/Artefacts.cpp.obj" \
+"CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj" \
+"CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj" \
+"CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj"
 
 # External object files for target RPG_Game
 RPG_Game_EXTERNAL_OBJECTS =
@@ -154,11 +199,14 @@ RPG_Game.exe: CMakeFiles/RPG_Game.dir/CombatSystem/CombatSystem.cpp.obj
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/Character/Character.cpp.obj
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/Player/Player.cpp.obj
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/Artefacts/Artefacts.cpp.obj
+RPG_Game.exe: CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj
+RPG_Game.exe: CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj
+RPG_Game.exe: CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/build.make
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/linkLibs.rsp
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/objects1.rsp
 RPG_Game.exe: CMakeFiles/RPG_Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RPG_Game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Ian\Documents\Dev\Projects\RPG_GAME\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable RPG_Game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RPG_Game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

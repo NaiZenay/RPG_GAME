@@ -88,13 +88,28 @@
 		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Artefacts/Artefacts.h">
 			<Option target="RPG_Game"/>
 		</Unit>
+		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Artefacts/Wepons/Wepons.cpp">
+			<Option target="RPG_Game"/>
+		</Unit>
+		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Artefacts/Wepons/Wepons.h">
+			<Option target="RPG_Game"/>
+		</Unit>
 		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Character/Character.cpp">
 			<Option target="RPG_Game"/>
 		</Unit>
 		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Character/Character.h">
 			<Option target="RPG_Game"/>
 		</Unit>
+		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Class/Class.cpp">
+			<Option target="RPG_Game"/>
+		</Unit>
 		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Class/Class.h">
+			<Option target="RPG_Game"/>
+		</Unit>
+		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Class/Knight/Knight.cpp">
+			<Option target="RPG_Game"/>
+		</Unit>
+		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/Class/Knight/Knight.h">
 			<Option target="RPG_Game"/>
 		</Unit>
 		<Unit filename="C:/Users/Ian/Documents/Dev/Projects/RPG_GAME/CombatSystem/CombatSystem.cpp">

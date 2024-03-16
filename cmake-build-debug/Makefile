@@ -152,6 +152,30 @@ Artefacts/Artefacts.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Artefacts/Artefacts.cpp.s
 .PHONY : Artefacts/Artefacts.cpp.s
 
+Artefacts/Wepons/Wepons.obj: Artefacts/Wepons/Wepons.cpp.obj
+.PHONY : Artefacts/Wepons/Wepons.obj
+
+# target to build an object file
+Artefacts/Wepons/Wepons.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.obj
+.PHONY : Artefacts/Wepons/Wepons.cpp.obj
+
+Artefacts/Wepons/Wepons.i: Artefacts/Wepons/Wepons.cpp.i
+.PHONY : Artefacts/Wepons/Wepons.i
+
+# target to preprocess a source file
+Artefacts/Wepons/Wepons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.i
+.PHONY : Artefacts/Wepons/Wepons.cpp.i
+
+Artefacts/Wepons/Wepons.s: Artefacts/Wepons/Wepons.cpp.s
+.PHONY : Artefacts/Wepons/Wepons.s
+
+# target to generate assembly for a file
+Artefacts/Wepons/Wepons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Artefacts/Wepons/Wepons.cpp.s
+.PHONY : Artefacts/Wepons/Wepons.cpp.s
+
 Character/Character.obj: Character/Character.cpp.obj
 .PHONY : Character/Character.obj
 
@@ -175,6 +199,54 @@ Character/Character.s: Character/Character.cpp.s
 Character/Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Character/Character.cpp.s
 .PHONY : Character/Character.cpp.s
+
+Class/Class.obj: Class/Class.cpp.obj
+.PHONY : Class/Class.obj
+
+# target to build an object file
+Class/Class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Class/Class.cpp.obj
+.PHONY : Class/Class.cpp.obj
+
+Class/Class.i: Class/Class.cpp.i
+.PHONY : Class/Class.i
+
+# target to preprocess a source file
+Class/Class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Class/Class.cpp.i
+.PHONY : Class/Class.cpp.i
+
+Class/Class.s: Class/Class.cpp.s
+.PHONY : Class/Class.s
+
+# target to generate assembly for a file
+Class/Class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Class/Class.cpp.s
+.PHONY : Class/Class.cpp.s
+
+Class/Knight/Knight.obj: Class/Knight/Knight.cpp.obj
+.PHONY : Class/Knight/Knight.obj
+
+# target to build an object file
+Class/Knight/Knight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.obj
+.PHONY : Class/Knight/Knight.cpp.obj
+
+Class/Knight/Knight.i: Class/Knight/Knight.cpp.i
+.PHONY : Class/Knight/Knight.i
+
+# target to preprocess a source file
+Class/Knight/Knight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.i
+.PHONY : Class/Knight/Knight.cpp.i
+
+Class/Knight/Knight.s: Class/Knight/Knight.cpp.s
+.PHONY : Class/Knight/Knight.s
+
+# target to generate assembly for a file
+Class/Knight/Knight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Class/Knight/Knight.cpp.s
+.PHONY : Class/Knight/Knight.cpp.s
 
 CombatSystem/CombatSystem.obj: CombatSystem/CombatSystem.cpp.obj
 .PHONY : CombatSystem/CombatSystem.obj
@@ -260,9 +332,18 @@ help:
 	@echo ... Artefacts/Artefacts.obj
 	@echo ... Artefacts/Artefacts.i
 	@echo ... Artefacts/Artefacts.s
+	@echo ... Artefacts/Wepons/Wepons.obj
+	@echo ... Artefacts/Wepons/Wepons.i
+	@echo ... Artefacts/Wepons/Wepons.s
 	@echo ... Character/Character.obj
 	@echo ... Character/Character.i
 	@echo ... Character/Character.s
+	@echo ... Class/Class.obj
+	@echo ... Class/Class.i
+	@echo ... Class/Class.s
+	@echo ... Class/Knight/Knight.obj
+	@echo ... Class/Knight/Knight.i
+	@echo ... Class/Knight/Knight.s
 	@echo ... CombatSystem/CombatSystem.obj
 	@echo ... CombatSystem/CombatSystem.i
 	@echo ... CombatSystem/CombatSystem.s
